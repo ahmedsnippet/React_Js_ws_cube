@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.modalOverLay{
+  width: 100%;
+  position: fixed;
+  display: none;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.modalShow{
+  display: block;
+}
+.showModalDiv{
+  top: 50%;
+  z-index: 9999;
+}
+.modalDiv{
+  text-align: center;
+  width: 320px;
+  position: fixed;
+  transition: 0.3s;
+  height: 320px;
+  left: 50%;
+  /* top: -50%; */
+  transform: translate(-50%, -50%);
+  background: #ad0000;
+}
+.en{
+  position: fixed;
+  right: -30px;
+  top: 100px;
+  transform: rotate(90deg);
+}
+span{
+  cursor: pointer;
+  font-size: 30px;
+}

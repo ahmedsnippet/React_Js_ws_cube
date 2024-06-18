@@ -1,0 +1,45 @@
+#root {
+  margin: auto;
+  text-align: center;
+}
+form{
+  width: 900px;
+  margin: auto;
+  gap: 20px;
+}
+form input{
+  padding: 0.5rem;
+}
+button {
+  padding: 0.5rem;
+}
+.outerDiv{
+  margin: auto;
+  width: 400px;
+}
+.outerDiv ul{
+  margin-top: 50px;
+  padding: 0px;
+  list-style: none;
+}
+.outerDiv ul li {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: #000000;
+  padding: 0.5rem;
+}
+.outerDiv ul li span{
+  position: absolute;
+  cursor: pointer;
+  right: 22px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.completetodo{
+  text-decoration: line-through;
+  color: red!important;
+  background-color: yellow!important;
+  cursor: pointer;
+}

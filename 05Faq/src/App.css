@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+}
+.faqouter{
+  width: 800px;
+  margin: auto;
+}
+.faqitems{
+  cursor: pointer;
+  border: 1px solid red;
+  margin-bottom: 20px;
+}
+.faqitems h2{
+  margin: 0px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+}
+.faqitems p{
+  text-align: left;
+  height: 0px;
+  margin: 0;
+  transform: scaleY(0);
+  font-size: 60px;
+  color: #000;
+}
+.activeAns{
+  height: auto!important;
+  cursor: pointer;
+  transform: scaleY(1);
+  padding: 10px!important;
+
+}
